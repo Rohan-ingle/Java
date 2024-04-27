@@ -89,7 +89,7 @@ public class ViewDetailsController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/DB", "root", "laksh");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/DB", "root", "root");
 
             PreparedStatement stmt = null;
             ResultSet resultSet = null;
